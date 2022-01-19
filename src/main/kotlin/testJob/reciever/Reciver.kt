@@ -6,13 +6,10 @@ class Reciver() {
         @JvmStatic
         fun test(string : String, array : Array<String> ):ArrayList<String>{
 
-
+            
 
 
             return arrayListOf()
-//            return listOf("hello") as ArrayList<String>
-//            Cast array to ArrayList<String>
-//            val list: ArrayList<String> = array.toCollection(ArrayList())
         }
     }
 
@@ -43,13 +40,11 @@ class Reciver() {
 
     fun creatingFinalArray(list: ArrayList<String>, array:Array<String>) : ArrayList<String>{
         val finalList: ArrayList<String> = arrayListOf()
-
-        list.forEach {
-            if(it in array[0]) {
-                
+        for(item in array){
+            if(list.all { it in item }){
+                finalList.add(item)
             }
         }
-
         return finalList
     }
 }
