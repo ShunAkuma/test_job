@@ -5,19 +5,31 @@ class Reciver() {
     companion object{
         @JvmStatic
         fun test(string : String, array : Array<String> ):ArrayList<String>{
+            var tempList: ArrayList<String>
+            val finalList:ArrayList<String>
+            val reciver = Reciver()
+            val csv = CSVPrinter()
+            tempList = reciver.creatingFinalArray(reciver.converterStringToArrayList(string),array)
 
-            
-
+            finalList = reciver.converterStringToArrayList(list = tempList)
+            csv.printToCsv(finalList)
+            println(finalList)
 
             return arrayListOf()
         }
     }
 
-    fun converterStringToArrayList(string: String) : ArrayList<String>{
+    fun converterStringToArrayList(string: String = "", list:ArrayList<String> = arrayListOf<String>()) : ArrayList<String>{
         val arrayL: ArrayList<String> = arrayListOf()
+        var string = string
+
         var startIndex = -1
         var endIndex = -1
-        val listSize = string.length - 1
+        var listSize = string.length - 1
+        if(list.isNotEmpty()){
+            string = list.joinToString()
+            listSize = string.length
+        }
         string.forEachIndexed{_index, _element ->
             if (_element.toLowerCase().toString() in "a" .. "z" ){
                 startIndex = _index
@@ -48,7 +60,3 @@ class Reciver() {
         return finalList
     }
 }
-
-
-//Сатичный метод (строку и массив строк): ArrayList<>
-//
