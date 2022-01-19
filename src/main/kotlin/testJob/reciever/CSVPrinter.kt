@@ -1,12 +1,6 @@
 package testJob.reciever
-
-import org.apache.commons.csv.CSVFormat
-import org.apache.commons.csv.CSVPrinter
-import java.io.BufferedWriter
 import java.io.File
 import java.io.PrintWriter
-import java.nio.file.Paths
-import java.nio.file.Paths.*
 
 
 class CSVPrinter {

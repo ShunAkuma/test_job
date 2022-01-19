@@ -3,19 +3,13 @@ package testJob.reciever
 class Reciver() {
 
     companion object{
-        @JvmStatic
         fun test(string : String, array : Array<String> ):ArrayList<String>{
-            var tempList: ArrayList<String>
-            val finalList:ArrayList<String>
+            var finalList:ArrayList<String>
             val reciver = Reciver()
-            val csv = CSVPrinter()
-            tempList = reciver.creatingFinalArray(reciver.converterStringToArrayList(string),array)
+            finalList = reciver.creatingFinalArray(reciver.converterStringToArrayList(string),array)
+            finalList = reciver.converterStringToArrayList(list = finalList)
 
-            finalList = reciver.converterStringToArrayList(list = tempList)
-            csv.printToCsv(finalList)
-            println(finalList)
-
-            return arrayListOf()
+            return finalList
         }
     }
 
