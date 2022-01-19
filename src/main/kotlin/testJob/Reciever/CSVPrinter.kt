@@ -1,4 +1,4 @@
-package testJob.reciever
+package testJob.Reciever
 import java.io.File
 import java.io.PrintWriter
 

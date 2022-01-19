@@ -1,4 +1,4 @@
-package testJob.reciever
+package testJob.Reciever
 
 
 import org.junit.jupiter.api.DisplayName
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 internal class ReciverTest {
-    val reciver = Reciver()
+    val reciver = Reciever()
     @DisplayName("Test converter method")
     @Test
     fun converterStringToArrayList() {

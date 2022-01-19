@@ -1,11 +1,11 @@
-package testJob.reciever
+package testJob.Reciever
 
-class Reciver() {
+class Reciever() {
 
     companion object{
         fun staticMethod(string : String, array : Array<String> ):ArrayList<String>{
             var finalList:ArrayList<String>
-            val reciver = Reciver()
+            val reciver = Reciever()
             finalList = reciver.creatingFinalArray(reciver.converterStringToArrayList(string),array)
             finalList = reciver.converterStringToArrayList(list = finalList)
 
