@@ -7,7 +7,7 @@ Exmaple:
     String "T1001,, "
     Array ["T1001,, ,T1002,", "T1002, , T2004] 
 
-It's assumed that the thong stores no more than 3 values and the number of values is not equal to 0,
+It's assumed that the string stores no more than 3 values and the number of values is not equal to 0,
 and the values begin with the letter
 Input data: 
     String = ",T1006"
