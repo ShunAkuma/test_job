@@ -3,7 +3,7 @@ package testJob.reciever
 class Reciver() {
 
     companion object{
-        fun test(string : String, array : Array<String> ):ArrayList<String>{
+        fun staticMethod(string : String, array : Array<String> ):ArrayList<String>{
             var finalList:ArrayList<String>
             val reciver = Reciver()
             finalList = reciver.creatingFinalArray(reciver.converterStringToArrayList(string),array)
