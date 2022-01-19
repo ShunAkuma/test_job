@@ -4,8 +4,8 @@ import java.io.PrintWriter
 
 
 class CSVPrinter {
-    val csvFile = File("outputFile.csv")
-    val out = PrintWriter(csvFile)
+    private val csvFile = File("outputFile.csv")
+    private val out = PrintWriter(csvFile)
 
     fun printToCsv(list: ArrayList<String>){
         list.forEach {
