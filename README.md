@@ -7,6 +7,7 @@ Exmaple:
     String "T1001,, "
     Array ["T1001,, ,T1002,", "T1002, , T2004] 
 
-Check in all found items in the array and output the file to .csv
+- [x] Check in all found items in the array and output the file to .csv
+- [x] Also write the necessary tests
 ````
 <p align="center"><img src="https://github.com/SoraRise/test_job/blob/master/src/main/resources/accets/test_job.png"><p>
