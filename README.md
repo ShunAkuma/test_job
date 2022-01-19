@@ -7,6 +7,11 @@ Exmaple:
     String "T1001,, "
     Array ["T1001,, ,T1002,", "T1002, , T2004] 
 
+It's assumed that the thong stores no more than 3 values and the number of values is not equal to 0,
+and the values begin with the letter
+Input data: 
+    String = ",T1006"
+    array = ["T1004, ,T1006, T1007,","T1006, ,T1001, ,","T1009, ,T1005"]
 
 ````
 - [x] Check in all found items in the array and output the file to .csv
