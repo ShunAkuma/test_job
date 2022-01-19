@@ -17,5 +17,5 @@ Input data:
 - [x] Check in all found items in the array and output the file to .csv
 - [x] Also write the necessary tests
 
-<p align="center"><img src="https://github.com/SoraRise/test_job/blob/master/src/main/resources/accets/test_job.png"><p>
-<p align="center"><img src="https://github.com/SoraRise/test_job/blob/master/src/main/resources/accets/test_job_result_test.png"><p>
+<p align="center"><img src="https://github.com/SoraRise/test_job/blob/master/src/main/resources/assets/test_job.png"><p>
+<p align="center"><img src="https://github.com/SoraRise/test_job/blob/master/src/main/resources/assets/test_job_result_test.png"><p>
