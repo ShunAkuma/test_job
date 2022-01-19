@@ -40,6 +40,18 @@ class Reciver() {
         }
         return arrayL
     }
+
+    fun creatingFinalArray(list: ArrayList<String>, array:Array<String>) : ArrayList<String>{
+        val finalList: ArrayList<String> = arrayListOf()
+
+        list.forEach {
+            if(it in array[0]) {
+                
+            }
+        }
+
+        return finalList
+    }
 }
 
 
