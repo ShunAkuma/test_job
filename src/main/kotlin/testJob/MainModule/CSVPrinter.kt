@@ -9,7 +9,7 @@ class CSVPrinter {
 
     fun printToCsv(list: ArrayList<String>){
         list.forEach {
-            out.println("Value : $it")
+            out.println(it)
         }
         out.close()
     }
