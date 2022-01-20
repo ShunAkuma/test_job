@@ -10,8 +10,8 @@ Exmaple:
 It's assumed that the string stores no more than 3 values and the number of values is not equal to 0,
 and the values begin with the letter
 Input data: 
-    String = ",T1006"
-    array = ["T1004, ,T1006, T1007,","T1006, ,T1001, ,","T1009, ,T1005"]
+    String = ",T1009"
+    array = ["T1004, ,T1008, T1007,","T1003, ,T1001, ,","T1009, ,T1005","T1009, , ,T111, T12292",",,,T1009,,,,,","T10002,,T1100,22102012, T1009"]
 
 ````
 - [x] Check in all found items in the array and output the file to .csv
